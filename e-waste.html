@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Facility Locator</title>
+    <link rel="stylesheet" href="e-waste.css">
+</head>
+<body>
+    <header>
+        <h1>E-Waste Facility Locator</h1>
+        <p>Find the nearest e-waste collection and recycling facility</p>
+    </header>
+
+    <main>
+        <section id="locator">
+            <h2>Find Nearest E-Waste Collection Facility</h2>
+            <p>Enter your location to find the nearest e-waste collection facility:</p>
+            <form id="locationForm">
+                <input type="text" id="location" name="location" placeholder="Enter your location">
+                <button type="submit" id="searchButton">Search</button>
+            </form>
+            <div id="map">
+                <!-- Your map will be embedded here -->
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Educational Pop-ups</h2>
+            <p>Learn about the harmful components of e-waste and their effects on the environment and human health:</p>
+            <button id="learnMoreBtn">Learn More</button>
+        </section>
+
+        <section id="recycling">
+            <h2>Recycling Incentives</h2>
+            <p>Enter the model of your old device to earn credit points:</p>
+            <form>
+                <input type="text" id="deviceModel" name="deviceModel" placeholder="Enter device model">
+                <button type="submit">Submit</button>
+            </form>
+            <div id="creditPoints">
+                <!-- Credit points will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-Waste Facility Locator</p>
+        <p>Contact: info@ewastefacilitylocator.com</p>
+    </footer>
+
+    <script src="e-waste.js"></script>
+</body>
+</html>
