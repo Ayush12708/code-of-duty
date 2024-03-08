@@ -1,2 +1,2 @@
 # code-of-duty
-html code of e-waste management
+html code off e-waste management
